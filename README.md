@@ -36,6 +36,8 @@ SistemaNotasJava é uma aplicação web para gerenciamento de notas, composta po
    ```
    O backend estará disponível em `http://localhost:8080`.
 
+> **Nota:** O backend já está configurado para aceitar requisições CORS de `http://localhost:5173` para todos os métodos HTTP principais (GET, POST, PUT, DELETE, OPTIONS). Se mudar a porta do frontend, ajuste o valor em `NotaController.java`.
+
 ## Como Rodar o Frontend
 
 Siga as instruções detalhadas no arquivo [`frontnotas/README.md`](frontnotas/README.md):
