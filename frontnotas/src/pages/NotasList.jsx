@@ -9,7 +9,7 @@ function NotasList() {
 
   const fetchNotas = async () => {
     try {
-      const res = await api.get('/');
+      const res = await api.get('');
       setNotas(res.data);
     } catch {
       toast.error('Erro ao carregar notas');

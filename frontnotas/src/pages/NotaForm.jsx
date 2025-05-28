@@ -44,7 +44,7 @@ function NotaForm() {
         await api.put(`/${id}`, { titulo, descricao });
         toast.success('Nota atualizada!');
       } else {
-        await api.post('/', { titulo, descricao });
+        await api.post('', { titulo, descricao });
         toast.success('Nota criada!');
       }
       navigate('/');
